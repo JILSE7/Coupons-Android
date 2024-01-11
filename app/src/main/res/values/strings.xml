@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ArchitectureRecommend-Cuppons</string>
+    <string name="consult">Consultar</string>
+    <string name="create">create\n</string>
+    <string name="welcome_text">Bienvenido, ingrese su cupón y a continuación presione consultar</string>
+    <string name="coupon_text">Cupón</string>
+    <string name="main_hint_coupon">Hola cupón\n</string>
+    <string name="main_hint_description">descripción\n</string>
+    <string name="error_exist_string">Error desconocido al crear cupón</string>
+    <string name="error_no_contemplado">error_discovered</string>
+    <string name="error_length_string">Error de longitud caracteres</string>
 </resources>
