@@ -3,10 +3,13 @@
     <string name="consult">Consultar</string>
     <string name="create">create\n</string>
     <string name="welcome_text">Bienvenido, ingrese su cupón y a continuación presione consultar</string>
+    <string name="new_coupon_text">Agrege una nueva descripción para su nuevo cupón</string>
     <string name="coupon_text">Cupón</string>
     <string name="main_hint_coupon">Hola cupón\n</string>
     <string name="main_hint_description">descripción\n</string>
-    <string name="error_exist_string">Error desconocido al crear cupón</string>
+    <string name="error_exist_string">Error al crear cupón: cupón existente</string>
     <string name="error_no_contemplado">error_discovered</string>
     <string name="error_length_string">Error de longitud caracteres</string>
+    <string name="created_coupon">Cupón Creado</string>
+    <string name="main_hint_active">Cupón activo</string>
 </resources>

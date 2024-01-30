@@ -35,14 +35,16 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding = true
+        // viewBinding = true
+        dataBinding = true
     }
 }
 
-val room_version = "2.6.0"
-val lifecycle_version = "2.6.1"
 
 dependencies {
+    val room_version = "2.6.0"
+    val lifecycle_version = "2.6.1"
+    val activity_version = "1.6.1"
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -66,4 +68,6 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
     /*LIVE DATA*/
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
+
+    implementation("androidx.activity:activity-ktx:$activity_version")
 }

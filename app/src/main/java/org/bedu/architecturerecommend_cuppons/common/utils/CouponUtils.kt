@@ -9,7 +9,7 @@ fun validateTextCode(code: String): Boolean {
     return !(code.length < 5 || code.length > 10)
 }
 
-fun getMessageErrorByCode(errorCode: String): Int {
+fun getMessageErrorByCode(errorCode: String?): Int {
     return when(errorCode) {
         Constants.ERROR_EXIST -> R.string.error_exist_string
         Constants.ERROR_LENGTH -> R.string.error_length_string
